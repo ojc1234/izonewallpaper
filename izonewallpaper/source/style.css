@@ -1,0 +1,16 @@
+
+.main
+{
+display: flex;
+position: relative;
+top: 20vh;
+left: 1vw;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+span
+{
+padding: 0px;
+font: 200px 'Archivo';
+}

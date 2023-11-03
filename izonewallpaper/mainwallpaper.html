@@ -1,0 +1,32 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="source/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100&display=swap');
+        </style>
+    <title>Document</title>
+</head>
+<body style="-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none">
+    <div id='result' style='position:absolute;'></div>    
+    <script>
+    let screenLog = document.querySelector('#screen-log');
+    document.addEventListener('mousemove', logKey);
+    
+    function logKey(e) {
+        document.getElementById("square").style.width = -90+e.screenX + "px";
+        document.getElementById("square1").style.width = 1800-e.screenX + "px";
+    }
+    </script>
+    <script src="source/js.js"></script>
+<span class="back" style="padding: 0;">
+    <span class="block" , id="square"></span>
+    <span class="squre", id = "square1"></span>
+    <p id="screen-log"></p>
+</span>  
+</body>
+</html>

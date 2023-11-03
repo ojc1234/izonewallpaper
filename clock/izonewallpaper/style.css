@@ -1,0 +1,62 @@
+
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+.back
+{
+    display: inline-flex;
+    background-image:   url('image/img.jpg');
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    filter : grayscale(50%);
+    border: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.block
+{
+    background: black;
+    height: 100vh;
+    width: 20vw;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 50%;
+}
+.squre
+{
+    background: black;
+    height: 100vh;
+    width: 70vw;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    opacity: 50%;
+}
+.button
+{
+    display: inline;
+    position: relative;
+   padding-left: 45px;
+   border-left: 300px;
+   top: -150px;
+   left: 300px;
+   
+}
+.clocktext
+{
+    padding: 0;
+}
+.clocktext >span
+{
+    padding-right: 30px;
+    padding-bottom: 0px;
+}
