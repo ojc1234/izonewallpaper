@@ -18,14 +18,14 @@
     document.addEventListener('mousemove', logKey);
     
     function logKey(e) {
-        document.getElementById("square").style.width = -90+e.screenX + "px";
-        document.getElementById("square1").style.width = 1800-e.screenX + "px";
+        document.getElementById("square").style.width = -200+e.screenX + "px"; // 숫자를 줄이면 투명영역이 작아짐
+        document.getElementById("square1").style.width = 1100-e.screenX + "px"; // 숫자를 줄이면 투명영역이 커짐
     }
     </script>
     <script src="source/js.js"></script>
 <span class="back" style="padding: 0;">
-    <span class="block" , id="square"></span>
-    <span class="squre", id = "square1"></span>
+    <span class="square" , id="square"></span>
+    <span class="squre1", id = "square1"></span>
     <p id="screen-log"></p>
 </span>  
 </body>

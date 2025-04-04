@@ -21,7 +21,7 @@ body
     width: 100vw;
     height: 100vh;
 }
-.block
+.square
 {
     background: black;
     height: 100vh;
@@ -31,7 +31,7 @@ body
     left: 0px;
     opacity: 50%;
 }
-.squre
+.squre1
 {
     background: black;
     height: 100vh;
